@@ -1,0 +1,69 @@
+body {
+    background-color: #EAEAEA;
+}
+
+header {
+    background-color: #4A1F43;
+}
+
+
+#btnIniciar, .boton{
+    border: 2px solid black;
+    background-color: #4A1F43;
+    border-radius: 8px;
+    color: white;
+}
+
+
+.customContainer{
+    width: 480px;
+}
+
+.separador{
+    padding-top: 144px;
+}
+
+.icon {
+    background-color: #65558f;
+    border-radius: 50%;          
+    padding: 5px;               
+    display: inline-block;
+    border: none;
+}
+
+.formulario{
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 8px;
+    height: fit-content;
+}
+
+.selectores{
+    border: 2px solid #65558f;
+    background-color: white;
+    border-radius: 8px;
+    height: fit-content;
+    transition: none !important;
+}
+
+.no-hover:hover {
+    background-color: white; /* Mantiene el color de fondo original */
+    color: inherit; /* Mantiene el color del texto original */
+    border-color: #65558f; /* Mantiene el color del borde original */
+    box-shadow: none; /* Elimina cualquier sombra */
+}
+
+.navGestionTxt{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-style: normal;
+    font-size: 150%;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 250%;
+    color: white;
+}
